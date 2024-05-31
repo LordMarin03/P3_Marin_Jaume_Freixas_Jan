@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3398392384734433105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4872109227314854437}
+  - component: {fileID: 8069776333553962306}
+  - component: {fileID: 2368839262502027133}
+  - component: {fileID: 5128143628767152634}
+  m_Layer: 0
+  m_Name: DATABASE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4872109227314854437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3398392384734433105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.05927, y: 161.64058, z: -20.333712}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8069776333553962306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3398392384734433105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b7f0b1940963b4a80dea4ee403af6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personajes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  valorAsesino: 0
+  nombreAsesino: 
+  Dialegs2Inocents:
+  - "Soc feli\xE7 vivint en aquesta illa, per\xF2 l'altre dia va haver un assassinat."
+  - "Estic espantat perqu\xE8 l'altre dia va haver un assassinat a l'illa."
+  - "M'agrada viure aqu\xED, per\xF2 l'\xFAltim esdeveniment m'ha posat nervi\xF3s."
+  - Tot semblava perfecte fins que va succeir l'incident.
+  - Vaig pensar que aquesta illa era segura fins al dia de l'assassinat.
+  - No puc deixar de pensar en el que va passar fa uns dies.
+  - Encara no m'ho crec que hagi passat un assassinat en un lloc com aquest.
+  - "Mira, aquesta illa sempre ha estat molt calmada per\xF2 des de l'assassinat
+    ja res \xE9s com era."
+  - "Tothom del barri parla sobre l'assassinat, ja no s\xE9 ni amb qui puc confiar."
+  Dialegs2Testimonis:
+  - Jo estava caminant pel carrer quan vaig sentir els crits.
+  - "Vaig veure alg\xFA corrent en la direcci\xF3 contr\xE0ria just despr\xE9s de
+    sentir el soroll."
+  - "No vaig veure la cara de la persona, per\xF2 portava una jaqueta blava."
+  - "Recordo que era al voltant de les 9 del mat\xED, encara hi havia molta gent
+    al carrer."
+  - "Vaig trucar immediatament a la policia quan vaig adonar-me de la situaci\xF3."
+  - Jo estava a la botiga de queviures al moment de l'incident, no vaig sortir fins
+    que vaig sentir els crits.
+  - "Vaig escoltar alg\xFA cridar per ajuda, per\xF2 quan vaig sortir al carrer,
+    ja era massa tard."
+  - "Vaig notar un home estrany rondant pel barri uns dies abans. Semblava nervi\xF3s,
+    com si amagu\xE9s alguna cosa."
+  - "Vaig veure una figura sospitosa aprop del mar. No s\xE9 si est\xE0 relacionat
+    amb l'assassinat, per\xF2 em va posar els p\xE8ls de punta."
+  Dialegs3MinijocTestigos:
+  - "\xC9s possible que tingui m\xE9s informaci\xF3 sobre el que va passar. Tot i
+    aix\xED, no t'ho dir\xE9 tan f\xE0cilment. Primer necessito que em facis un favor."
+  - "No puc revelar-te res fins que em demostris la teva confian\xE7a. Necessito
+    que primer, m'ajudis en una feina que tinc per a tu."
+  - "Tinc informaci\xF3, per\xF2 no la obtindr\xE0s tan f\xE0cilment. Has de guanyar-te-la."
+  - "Estic disposat a dir-te el que s\xE9, per\xF2 primer haur\xE0s de demostrar
+    el teu comprom\xEDs."
+  - "Si vols saber m\xE9s, haur\xE0s de superar una prova primer."
+  - "No t'ho dir\xE9 de manera gratu\xEFta. Haur\xE0s de fer alguna cosa per a mi
+    primer."
+  - "Puc ajudar-te, per\xF2 necessito la teva ajuda primer."
+  - "S\xED que vaig veure algo al moment de l'incident, per\xF2 les meves paraules
+    valen or aix\xED que primer m'haur\xE0s d'ajudar amb la meva botiga."
+  - "A canvi de revelar-te informaci\xF3 sobre el cas, primer m'has de fer un favor."
+  Dialegs3MinijocInocents:
+  - "No puc revelar-te res fins que em demostris la teva confian\xE7a. Necessito
+    que primer, m'ajudis en una feina que tinc per a tu."
+  - "No tinc res a dir-te ara mateix, per\xF2 si em fas un favor, potser despr\xE9s
+    puc ajudar-te."
+  - "Em sap greu, per\xF2 primer haur\xE0s de superar una prova abans de que pugui
+    dir-te res."
+  - "No s\xE9 si tinc l'informaci\xF3 que tu necessites. Haur\xE0s de demostrar el
+    teu comprom\xEDs abans."
+  - "Potser podria ajudar-te, per\xF2 necessito la teva ajuda primer. Nom\xE9s aix\xED
+    podr\xE9 ser \xFAtil."
+  - "Estic disposat a dir-te el que s\xE9, per\xF2 primer haur\xE0s de demostrar
+    que ets confiable."
+  - "No estic segur si ser\xE9 de gaire ajuda. En qualsevol cas, parlar\xE9 si superes
+    una prova que tinc per a tu."
+  - "No s\xE9 res sobre el cas, per\xF2 si m'ajudes ara amb la meva botiga potser
+    m'enrecordo d'algo. \xC9s que tinc mala mem\xF2ria..."
+  - "No crec que et serveixi de molt el qu\xE8 et dire. Tot i aix\xED, fes-me un
+    favor primer i despr\xE9s si vull, et dir\xE9 tot el que s\xE9."
+  Dialegs4PistesInocents:
+  - "Gr\xE0cies per ajudar-me. No obstant, em sap greu dir-te que el pensava que
+    havia recordat, se m'ha tornat a oblidar."
+  - "Ho has fet prou b\xE9, merci. Tot i aix\xED, sento dir-te que no vaig veure
+    res extrany en el moment de l'assassinat."
+  - "Has fet una bona feina ajudant-me, per\xF2 no recordo cap detall addicional
+    sobre aquell dia."
+  - "M'hauria agradat poder ajudar-te, per\xF2 sincerament, no tinc cap informaci\xF3
+    addicional sobre l'assassinat."
+  - "\xC9s frustrant, per\xF2 no puc recordar res m\xE9s que pugui ser rellevant
+    per a la investigaci\xF3."
+  - "Em sap greu decebre't, per\xF2 no puc oferir-te cap pista nova en aquest moment."
+  - "Crec que he intentat recordar, per\xF2 no hi ha cap detall que pugui aportar
+    a la investigaci\xF3."
+  - "Ho sento per\xF2 no vaig veure res. Em sap greu no poder ajudar-te."
+  - "S\xF3c totalment innocent, no vaig veure res extrany, de veritat. "
+  Dialegs4PistesTestimonisFruiter:
+  - "Gr\xE0cies per fer-me el favor. Jo crec que ha estat un habitant que sempre
+    va tacat de colors."
+  - "Gr\xE0cies per ajudar-me, a canvi et tornar\xE9 el favor. El meu possible assass\xED
+    ajuda als altres habitants a mantenir-se molt sans "
+  - "Ara que m\u2019has ajudat ja t\u2019ho puc dir. Crec que el sospit\xF3s sempre
+    va amb ganivets llargs a sobre per si els necessita."
+  - "Com que m\u2019has ajudat molt, et revelar\xE9 el que s\xE9 sobre el sospit\xF3s.
+    M\u2019han dit sempre que el seu somni frustrat era ser cuiner."
+  Dialegs4PistesTestimonisCuiner:
+  - "Ara que m\u2019has ajudat ja t\u2019ho puc dir. Sempre mira Masterchef."
+  - "Gr\xE0cies per ajudar-me, a canvi et tornar\xE9 el favor. La persona culpable
+    t\xE9 bastants ganivets al seu local."
+  - "Merci per tot el que has fet, a canvi et dir\xE9 que el meu sospit\xF3s treballa
+    moltes hores al dia i no descansa quasi mai."
+  - "Gr\xE0cies per fer-me el favor. El meu possible assass\xED sempre fa olor a
+    oli."
+  Dialegs4PistesTestimonisMecanic:
+  - "Ara que m\u2019has ajudat ja t\u2019ho puc dir. La persona qui crec que \xE9s
+    sospitosa va sempre brut."
+  - "Com que m\u2019has fet un gran favor, et dir\xE9 la veritat. L\u2019assass\xED
+    \xE9s un manetes."
+  - "Gr\xE0cies per ajudar-me. El principal culpable \xE9s conegut per arreglar coses."
+  - "Merci per tot el que has fet, a canvi et dir\xE9 que el meu sospit\xF3s t\xE9
+    moltes eines."
+  Dialegs4PistesTestimonisPolicia:
+  - "Ara que ja m\u2019has ajudat et revelar\xE9 tot el que s\xE9 sobre el cas. Quan
+    veig el sospit\xF3s pel carrer sempre imposa molt i \xE9s molt seri\xF3s."
+  - "Com que m\u2019has fet un gran favor, et dir\xE9 la veritat. Em sembla estrany
+    que l\u2019assass\xED sigui la persona que crec. Seria hip\xF2crita de part seva."
+  - "Merci per tot el que has fet, a canvi et dir\xE9 que el meu possible sospit\xF3s
+    sempre tracta amb males influ\xE8ncies."
+  - "Gr\xE0cies pel favor. Nom\xE9s et puc revelar que el meu possible assass\xED
+    coneix a tot el poble i segueix els habitants molt d\u2019aprop."
+  Dialegs4PistesTestimonisPastisser:
+  - "Ara que ja has fet la feina que t\u2019havia demanat, et revelar\xE9 el que
+    s\xE9. Si no m\u2019equivoco, el possible assass\xED fa menjar molt bo."
+  - "Gr\xE0cies pel favor. Nom\xE9s et puc revelar que el meu possible assass\xED
+    es desperta molt d'hora, cap a les 6 del mat\xED per obrir el seu local."
+  - "Com que m\u2019has fet un gran favor et dir\xE9 que els productes que ven fan
+    molt bona olor."
+  - "Merci pel que has fet, a canvi et dir\xE9 que el meu possible sospit\xF3s no
+    para de menjar ja que sempre est\xE0 envoltat d\u2019aliments."
+  Dialegs4PistesTestimonisDependent:
+  - "Ben jugat! Ara ja et puc confessar el que s\xE9. La persona que considero m\xE9s
+    sospitosa sempre segueix les tend\xE8ncies."
+  - "Ara que ja has fet la feina que t\u2019havia demanat, et revelar\xE9 el que
+    s\xE9. Si no m\u2019equivoco, el possible assass\xED es fixa molt amb l'estil
+    de la gent."
+  - "Gr\xE0cies per l\u2019ajuda, per tornar-te el favor i poder resoldre el cas
+    et dir\xE9 que el somni frustrat de l'assass\xED era estudiar disseny de moda."
+  - "Wow, m\u2019has servit de gran ajuda, a canvi et dir\xE9 que la persona sospitosa
+    \xE9s molt presumida."
+  Asesino: {fileID: 0}
+  Inocentes: []
+  Testigo1: {fileID: 0}
+  Testigo2: {fileID: 0}
+  a: 0
+--- !u!114 &2368839262502027133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3398392384734433105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0dcf6f5f2e6e1446b341150978ad84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombresPersonajes:
+  - Alejandro
+  - Bianca
+  - Carlos
+  - Daniela
+  - Eduardo
+  - Fernanda
+  - Gabriel
+  - Helena
+  - Ivan
+  - Julia
+  - Kevin
+  - Lorena
+  - Miguel
+  - Natalia
+  - Oscar
+  - Paola
+  - Quetzal
+  - Rebeca
+  - Santiago
+  - Tamara
+  - Ulises
+  - Valentina
+  - Walter
+  - Ximena
+  - Yahir
+  - Zoe
+  - Abigail
+  - Bruno
+  - Camila
+  - Dante
+  - Elena
+  - Felipe
+  - Giselle
+  - Hugo
+  - Isabella
+  - Juan
+  - Karen
+  - Luis
+  - Mariana
+--- !u!114 &5128143628767152634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3398392384734433105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2264e31f3e3088459f011ddb14175d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextoActual: 
+  textaco: {fileID: 0}
+  ShowingText: 0
+  CloseColor: {r: 0, g: 0, b: 0, a: 0}
+  OpenColor: {r: 0.4862745, g: 0.6117647, b: 0.7647059, a: 0.8156863}
+  transformer: {fileID: 0}
+  Transition: {fileID: 0}
+  BotoJugar: {fileID: 0}

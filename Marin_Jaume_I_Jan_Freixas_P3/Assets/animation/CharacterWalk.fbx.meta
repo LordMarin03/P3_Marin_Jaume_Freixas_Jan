@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: 1b7894f120f6ccb46920a21921f2c0ae
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      internalID: 2667949614841947897
+      firstFrame: 101
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 100.799995
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: CharacterWalk(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ala_dreta2
+      parentName: CharacterWalk(Clone)
+      position: {x: 0.06951107, y: 0.19477342, z: -0.19496545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30689943, y: 0.30689943, z: 0.30689943}
+    - name: ala_dreta3
+      parentName: CharacterWalk(Clone)
+      position: {x: -0.089683205, y: 0.19731142, z: -0.19496545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30689943, y: 0.30689943, z: 0.30689943}
+    - name: boca_n
+      parentName: CharacterWalk(Clone)
+      position: {x: -0.00006974528, y: 0.13266633, z: 0.048225068}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bec1
+      parentName: boca_n
+      position: {x: 0.00006974528, y: -0.13266633, z: -0.048225068}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cara
+      parentName: CharacterWalk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bec
+      parentName: cara
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ulls1
+      parentName: cara
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ulls2
+      parentName: ulls1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: peu1
+      parentName: CharacterWalk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: peu2
+      parentName: CharacterWalk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.017234769, y: 0, z: -0, w: 0.9998515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: todo_n
+      parentName: CharacterWalk(Clone)
+      position: {x: -8.881784e-18, y: 0.015135717, z: 0.010323992}
+      rotation: {x: 0, y: 0.00063209806, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alta_n
+      parentName: todo_n
+      position: {x: -2.8070786e-21, y: 0, z: 2.2204443e-18}
+      rotation: {x: 0, y: -0.019709896, z: -0, w: 0.99980575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cuello_n
+      parentName: alta_n
+      position: {x: 0.000206056, y: 0.08369845, z: 0}
+      rotation: {x: 0.004602295, y: 0.0718057, z: -0.00033132982, w: 0.997408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cabeza_n
+      parentName: cuello_n
+      position: {x: -0.0008915501, y: 0.09595621, z: 0.00091265957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3841256, y: 1, z: 1}
+    - name: hombro_der_n
+      parentName: cuello_n
+      position: {x: 0.037777744, y: -0.0072256657, z: 0.00000000834465}
+      rotation: {x: -0.19510591, y: -0.012360908, z: 0.062008068, w: 0.978742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: muneca_der_n
+      parentName: hombro_der_n
+      position: {x: 0.04325425, y: -0.05667469, z: -0.0035646313}
+      rotation: {x: 0, y: 0, z: 0.82163274, w: 0.57001734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hombro_izq_n
+      parentName: cuello_n
+      position: {x: -0.03777775, y: -0.0051710797, z: 0}
+      rotation: {x: 0.1523201, y: -0.2549682, z: 0.489717, w: 0.81973594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: muneca_izq_n
+      parentName: hombro_izq_n
+      position: {x: -0.06544915, y: -0.0055694226, z: -0.0069801565}
+      rotation: {x: 0, y: 0, z: 0.11308281, w: 0.9935856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: baja_n
+      parentName: todo_n
+      position: {x: -1.5777218e-32, y: 0, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0.016689818, w: 0.99986076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pie_der_n
+      parentName: baja_n
+      position: {x: 0.024110798, y: -0.013123577, z: -0.014331412}
+      rotation: {x: 0.021695225, y: -0, z: -0, w: 0.9997646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pie_izq_n
+      parentName: baja_n
+      position: {x: -0.024110837, y: -0.01312358, z: -0.014331411}
+      rotation: {x: -0.056541294, y: 0.11616016, z: -0.02668014, w: 0.9912609}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cos
+      parentName: todo_n
+      position: {x: -0.0000096710155, y: -0.015135717, z: -0.0103252595}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: todo
+      parentName: todo_n
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: parte_alta
+      parentName: todo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.019709896, z: -0, w: 0.99980575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cuello
+      parentName: parte_alta
+      position: {x: 0.00020605607, y: 0.08369845, z: 3.1078067e-11}
+      rotation: {x: -0.04728187, y: 0.054237116, z: -0.70240015, w: 0.70813614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cara
+      parentName: cuello
+      position: {x: -0.04977904, y: 0.0005322639, z: 0.0007079926}
+      rotation: {x: 0.018247638, y: -0.018408882, z: 0.70375305, w: 0.70997167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cabeza
+      parentName: cara
+      position: {x: -0.0009739403, y: 0.04317964, z: 0.0002554828}
+      rotation: {x: 0, y: 0.025920324, z: -0, w: 0.999664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sombrero3
+      parentName: cabeza
+      position: {x: 0.00049936736, y: 0.025646277, z: -0.0005173797}
+      rotation: {x: 0, y: -0.0725835, z: -0, w: 0.9973624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: barret
+      parentName: sombrero3
+      position: {x: -0.00014672904, y: -0.00042012095, z: 0.000002945885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6.4692116, y: 3.5062137, z: 4.444496}
+    - name: plano
+      parentName: barret
+      position: {x: 0.0002655906, y: -0.0073548816, z: -0.00027666945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.6321796, y: 0.12011177, z: 1.0287702}
+    - name: espalda_der
+      parentName: cuello
+      position: {x: 0.0075577316, y: 0.037712716, z: 0.000000007628512}
+      rotation: {x: 0.7096901, y: 0.67684627, z: 0.15634242, w: 0.11737189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hombro_der
+      parentName: espalda_der
+      position: {x: 0.014886496, y: 0.0013523715, z: 0.0018462699}
+      rotation: {x: 0.00085837505, y: -0.017431287, z: 0.049176272, w: 0.9986377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: codo_der
+      parentName: hombro_der
+      position: {x: 0.024834415, y: -3.5527136e-17, z: 0.0033370042}
+      rotation: {x: 0.00043767903, y: 0.048586316, z: -0.008997274, w: 0.9987784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: muneca_der
+      parentName: codo_der
+      position: {x: 0.025928533, y: -0.000000039139607, z: 0.002551836}
+      rotation: {x: 2.8622341e-25, y: -8.329168e-18, z: -0.5531469, w: 0.83308375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: espalda_izq
+      parentName: cuello
+      position: {x: 0.004838537, y: -0.037821785, z: 0}
+      rotation: {x: -0.02915398, y: -0.024673995, z: 0.6843259, w: 0.7281753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hombro_izq
+      parentName: espalda_izq
+      position: {x: -0.014886515, y: -0.0013523438, z: -0.0018462641}
+      rotation: {x: 0.008690736, y: -0.036002994, z: 0.078437224, w: 0.99623084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: codo_izq
+      parentName: hombro_izq
+      position: {x: -0.024834413, y: -2.6645352e-17, z: -0.0033370056}
+      rotation: {x: 0.00043767903, y: 0.048586316, z: -0.008997274, w: 0.9987784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: muneca_izq
+      parentName: codo_izq
+      position: {x: -0.025928533, y: 1.7763568e-17, z: -0.002551828}
+      rotation: {x: -0.0025892952, y: -0.031045713, z: 0.07301376, w: 0.9968443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: parte_baja
+      parentName: todo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.016689818, w: 0.99986076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pie_der
+      parentName: parte_baja
+      position: {x: 0.024110798, y: -0.013123577, z: -0.014331412}
+      rotation: {x: 0.82474214, y: -3.4627435e-17, z: 0.56550896, w: 5.0500892e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: talon_der
+      parentName: pie_der
+      position: {x: 0.009451475, y: 0.0031501001, z: -0.0000000050879896}
+      rotation: {x: -3.6213284e-25, y: 0.24886546, z: -3.047723e-17, w: 0.9685381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: punta_pie_der
+      parentName: talon_der
+      position: {x: 0.021851877, y: 0.00269995, z: 0.011857673}
+      rotation: {x: -5.811453e-18, y: -0.75296676, z: 5.811453e-18, w: 0.6580585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pie_izq
+      parentName: parte_baja
+      position: {x: -0.024110837, y: -0.01312358, z: -0.014331411}
+      rotation: {x: -0.031544127, y: 0.65636903, z: -0.053978823, w: 0.751845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: talon_izq
+      parentName: pie_izq
+      position: {x: -0.009451479, y: -0.0031501001, z: -5.551115e-19}
+      rotation: {x: 0, y: 0.24886546, z: -0, w: 0.9685381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: punta_pie_izq
+      parentName: talon_izq
+      position: {x: -0.022175001, y: -0.002699944, z: -0.009466773}
+      rotation: {x: -5.811453e-18, y: -0.75296676, z: 5.811453e-18, w: 0.6580585}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
